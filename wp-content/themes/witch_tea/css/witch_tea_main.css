@@ -1,0 +1,231 @@
+.nav {
+	height: 5vw;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.45);
+	position: fixed;
+	z-index: 1;
+	justify-content: center;
+}
+
+.nav .logo {
+	height: 80%;
+	width: 10%;
+	background-image: url("../images/witch_tea_logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+	margin: 2% 0;	
+}
+
+.nav_social {
+	display: flex;
+	justify-content: flex-end;
+	width: 90%
+}
+
+.nav .email {
+	text-decoration: none;;
+	color: black;
+}
+
+#facebook, #instagram {
+	width: 2%;
+	height: 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+
+}
+#facebook {
+	background-image: url("../images/facebook.png");
+	margin: 0 2%;
+}
+
+#instagram {
+	background-image: url("../images/instagram.png");	
+	margin-right: 3%;
+}
+.main {
+	position: relative;
+	height: 170vh;
+}
+
+.main div {
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+}
+
+.main .mapouter:before, .main .coming_soon:before {
+	background-image: none;
+}
+
+.main .intro { 
+	border: 5px solid rgb(128, 28, 122);
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	height: 50vh;
+	width: 50vh;
+	left: 10vw;
+	top: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main .intro:before {
+	height: 50vh;
+	width: 50vh;
+}
+
+.main .intro p, .main .info p {
+	width: 75%;
+	color: white;
+}
+
+.main .menu {
+	border: 5px solid rgb(128, 28, 122);
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	background: white;
+	background-image: url("../images/menu.jpg");
+	height: 75vh;
+	width: 75vh;
+	right: 5vw;
+	top: 10vh;
+}
+
+.main .menu:before {
+	height: 75vh;
+	width: 75vh;
+}
+
+.main .logo {
+	height: 30vh;
+	width: 30vh;
+	left: 40vw;
+	top: 60vh;
+	background-image: url("../images/witch_tea_logo.png");
+	background-size: cover;
+	background-color: transparent;
+}
+.main .logo:before {
+	height: 30vh;
+	width: 30vh;
+	background-image: none;
+
+
+}
+.main .map {
+	height: 75vh;
+	width: 75vh;
+	top: 80vh;
+	left: 5vw;
+}
+
+.map iframe {
+	width: 75vh;
+	height: 75vh;
+
+}
+
+.map .mapouter .gmap_canvas {
+	border: 5px solid rgb(156, 32, 92);
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+
+.main .info {
+	border: 5px solid rgb(156, 32, 92);
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	height: 50vh;
+	width: 50vh;
+	right: 15vw;
+	top: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.main .info:before {
+	height: 50vh;
+	width: 50vh;
+}
+
+.menu_table {
+	width: 100%;
+	height: 100%;
+}
+
+#menu_item {
+	width: 60%;
+	margin: 0 auto;
+/*	border-bottom: 1px solid grey;*/
+}
+
+#menu_item:nth-child(6) {
+	border: none;
+}
+.eng_title {
+	padding-right: 8px;
+}
+.eng_title, .chn_title {
+	display: inline;
+	font-weight: normal;
+
+}
+.eng_desc, .chn_desc {
+	font-size: 0.8em;
+}
+.chn_title, .chn_desc {
+	color: grey;
+}
+
+#menu_item td, #menu_item h4, #menu_item h5 {
+	color: transparent;
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.main .coming_soon {
+	background: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main .coming_soon h3 {
+	background-image: linear-gradient(to bottom, rgba(128, 28, 122, 0.8) 0%, rgba(156, 32, 92, 0.8) 100%);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px 60px;
+	font-size: 2em;
+	transform: rotate(-20deg);
+}
+
+.menu_overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	top: 0;
+	left:0;
+	z-index: 100;
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.large_menu {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/menu.jpg");
+	background-position: center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}

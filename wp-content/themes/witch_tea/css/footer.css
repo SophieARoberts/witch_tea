@@ -1,0 +1,59 @@
+div.foot {
+	position: relative;
+/*	background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;*/	
+	background-color: rgba(0,0,0,0.8);
+	display: flex;
+
+}
+
+
+.footer_info {
+	width: 100%;
+	color: white;
+	display: flex;
+}
+
+.footer_info .contact, .opening, .social {
+	margin-right: 2%;
+}
+
+.contact {
+	line-height: 0.4em;
+	align-self: baseline;
+	margin-left: 5%; 
+
+}
+
+.contact p.phone {
+	margin-top: 2%;
+}
+
+.opening {
+	align-self: baseline;
+
+}
+.opening p, .contact p {
+	font-size: 0.9em;
+}
+.social {
+	display: flex;
+	align-self: flex-end;
+}
+
+.social div {
+	background-color: white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin: 0 5px 1em 5px;
+}
+
+.copyright {
+	margin-right: 5%;
+	margin-left: auto;
+	align-self: flex-end;
+
+}

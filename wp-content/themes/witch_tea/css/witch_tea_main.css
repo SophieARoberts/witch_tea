@@ -74,6 +74,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	line-height: 40px;
+	font-size: 1.5em;
 }
 
 .main .intro:before {
@@ -95,11 +97,26 @@
 	width: 75vh;
 	right: 5vw;
 	top: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
 }
 
 .main .menu:before {
 	height: 75vh;
 	width: 75vh;
+}
+
+
+.menu h2 {
+	color: rgb(128, 28, 122);;
+	text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+	font-size: 2em;
+	background-color: rgb(255,255,255,0.8);
+	padding: 10px;
+	box-shadow: 6px 10px 35px 0px rgba(0,0,0,0.3);
+	border-radius: 2px; 
 }
 
 .main .logo {
